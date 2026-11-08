@@ -74,15 +74,6 @@
 - Developed an automated 24/7 standalone display system on Raspberry Pi 4, running in kiosk mode, for real-time parking spot availability.
 - Designed a web administration interface to configure content remotely across devices on the local network.
 
----
-
-## <img src="./assets/projects_section_icon_64by64pixels.png" width="30" height="30" valign="middle" /> Featured Flagship Project
-
-### 🚗 **PARKit: Parking Access by License Plate Recognition**
-
-End-to-end parking system: online reservation, license plate reading on a Raspberry Pi 4 (YOLO + OCR fine-tuned on Tunisian plates), reservation check through a secured server API, and automatic barrier opening driven by two IR sensors and a servo over GPIO. About 0.3 s of CPU-only inference per plate. Fail-safe by design: access is denied on any server or network error, and the barrier never closes on a vehicle.
-
-`Raspberry Pi 4` · `Python` · `YOLO (NCNN)` · `FastPlate OCR` · `OpenCV` · `GPIO` · `PHP` · `MySQL`
 
 ---
 
